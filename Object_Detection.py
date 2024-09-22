@@ -32,7 +32,7 @@ net = cv2.dnn.readNetFromCaffe(args.prototxt, args.weights)
 
 while True:
     ret, frame = cap.read()
-    frame_resized = cv2.resize(frame,(300,300)) # resize frame for prediction
+    frame_resized = cv2.resize(frame,(300,300)) 
 
  
     blob = cv2.dnn.blobFromImage(frame_resized, 0.007843, (300, 300), (127.5, 127.5, 127.5), False)
