@@ -22,8 +22,8 @@ This project implements an object detection system using the MobileNet-SSD model
 1. Clone the repository:
 
    ```bash
-   git 
-   cd your-repo-name
+   git https://github.com/rkishanCodes/Object-Detection.git
+   cd Object-Detection
    ```
 
 2. Create a virtual environment:
