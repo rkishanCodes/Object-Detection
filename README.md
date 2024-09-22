@@ -1,5 +1,4 @@
 
-```markdown
 # MobileNet-SSD Object Detection
 
 ## Overview
@@ -23,7 +22,7 @@ This project implements an object detection system using the MobileNet-SSD model
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git 
    cd your-repo-name
    ```
 
@@ -47,26 +46,20 @@ This project implements an object detection system using the MobileNet-SSD model
 4. Install required packages:
 
    ```bash
-   pip install opencv-python numpy
+   pip install -r requirements.txt
    ```
 
-5. Download the MobileNet-SSD model files:
 
-   - `MobileNetSSD_deploy.prototxt`
-   - `MobileNetSSD_deploy.caffemodel`
-
-   Place these files in the project directory.
 
 ## Usage
 
 Run the script with the following command:
 
 ```bash
-python detect.py --video <path_to_video> --prototxt MobileNetSSD_deploy.prototxt --weights MobileNetSSD_deploy.caffemodel --thr 0.2
+python detect.py --video <path_to_video> 
 ```
 
 - Replace `<path_to_video>` with the path to your video file. If you want to use the camera stream, leave this argument empty.
-- You can adjust the confidence threshold using the `--thr` argument.
 
 ### Example
 
